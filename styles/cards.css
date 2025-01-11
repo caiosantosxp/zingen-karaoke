@@ -1,0 +1,13 @@
+.card {
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 1.5rem;
+
+  & .svg {
+    width: 40px;
+  }
+
+  & h3 {
+    margin-top: 1rem;
+  }
+}
